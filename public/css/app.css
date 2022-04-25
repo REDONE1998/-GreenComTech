@@ -1,11 +1,196 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ /* -------------------------------------------------------------------------------- */
+ 
+ /* .carousel-item {
+   height: 100vh;
+   min-height: 300px;
+   background: no-repeat scroll  center scroll;
+    -webkit-background-size:cover;
+   background-size:cover;
+} */
+
+.carousel-item::before{
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:#000;
+  opacity:0.5;
+}
+
+.carousel-caption{
+  margin-bottom:160px;
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.carousel-caption a{
+  margin:3px;
+}
+
+.carousel-caption h5{
+  font-size: 90px;
+  font-weight:700;
+}
+
+
+.introduction-partie{
+  background-color:#fff;
+  width:100%;
+  height:auto;
+}
+
+.introduction-partie img{
+  border-radius:7px;
+  height:25rem;
+
+}
+.introduction-partie .para{
+ margin-top:110px;
+ font-size: 15px;
+ font-family: inherit;
+}
+
+.logiciel-partie{
+  background-color:#adb5bd;
+  width:100%;
+  height:auto;
+}
+
+.logiciel-partie .para{
+  margin-top:90px;
+  font-size: 15px;
+  font-family: inherit;
+
+}
+
+
+.feedback{
+  background-color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:100%;
+  height:auto;
+ 
+
+}
+
+.feedback-heading h1{
+  font-family:poppins;
+  font-size:2.2rem;
+  font-weight:500;
+  background-color:#345959;
+  color:#fff;
+  padding:10px 20px;
+  margin-top:10px;
+  
+}
+
+.feedback-box-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  width:100%;
+
+}
+
+
+.feedback-box{
+  width:500px;
+  box-shadow:2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding:20px;
+  margin:15px;
+  cursor:pointer;
+}
+
+.profile-img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-right:10px;
+
+}
+
+.profile-img img{
+  width:100%;
+  height:100%; 
+  object-fit: cover;
+  object-position:center;
+  
+  
+}
+.profile{
+  display:flex;
+  align-items:center;
+}
+.client-name{
+  display:flex;
+  flex-direction:column;
+}
+
+.client-name strong{
+  color: #3d3d3d;
+  font: size 1.1em;
+  letter-spacing:0.5px;
+}
+
+.client-name span{
+  color:#979797;
+  font-size:0.8rem;
+
+}
+
+.reviews{
+  color:#f9d71c;
+}
+.box-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 20px;
+}
+ 
+
+.client-commentaire p{
+  font-size:0.9rem;
+  color:#4b4b4b;
+}
+
+.feedback-box:hover{
+  transform:translateY(-10px);
+  transition: all ease 0.3s;
+}
+@media(max-width:1060px){
+  .feedback-box{
+    width:45%;
+    padding:10px;
+  }
+}
+
+
+  
+
+  
+  
+
+ /* -------------------------------------------------------------------------------- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -6010,6 +6195,8 @@ textarea.form-control-lg {
   display: none;
   float: left;
   width: 100%;
+  height:800px;/* this is an extra css*/
+  
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -6180,6 +6367,9 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  /* this is an extra css*/
+  bottom:180px;
+  padding-left:100px;
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -11285,4 +11475,10 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+
+   /* My Own css */
+
+  
 }
+  
