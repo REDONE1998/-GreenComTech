@@ -29,6 +29,15 @@ class HomeController extends Controller
     public function acceuil(){
         return view('index');
     }
+    public function contact(){
+        return view('contact');
+    }
+    public function devis(){
+        return view('devis');
+    }
+    public function blog(){
+        return view('blog');
+    }
 
     
 }

@@ -1,5 +1,5 @@
-@extends('layouts.app')
-{{-- @extends('layouts.header_footer') --}}
+@extends('layouts.header_footer')
+
 @section('content')
 <div class="blog">
   <img class="blogimg" src="{{asset('img/blog.jpg') }}" alt="">

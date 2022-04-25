@@ -1,6 +1,6 @@
 
-@extends('layouts.app')
-{{-- @extends('layouts.header_footer') --}}
+@extends('layouts.header_footer')
+
 @section('content')
 <div class="devis">
   <img class="titre" src="{{asset('img/DEMANDEZ-UN-DEVIS-GRATUIT.png') }} " alt="########################">
