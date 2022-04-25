@@ -1,9 +1,11 @@
 @extends('layouts.header_footer')
 
 @section('content')
+{{-- premier dev droite --}}
 <div class="blog">
   <img class="blogimg" src="{{asset('img/blog.jpg') }}" alt="">
 </div>
+{{-- div gauche --}}
 <div class="blogleft">
   <h1 class="titreblog">
   <b>Le blog de la societe</b>
@@ -30,6 +32,7 @@
           <span style="font-weight:200; color:antiquewhite;height:10px">GreenComTech</span>
         </h3>
       </div>
+      {{-- les reseaux socieaux --}}
         <div class="reseaux">
           <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-success"></i></a>
           <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-info"></i></a>

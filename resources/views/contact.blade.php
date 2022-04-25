@@ -3,6 +3,7 @@
 
 @section('content')
 <div class="body">
+  {{-- formulaire --}}
 <div  class="container">
   <h1 class="intro">Contactez-Nous</h1>
    <div class="content">
@@ -54,6 +55,7 @@
 
           </div>
         </div>
+        {{-- les donnees --}}
         <div class="col-md-4">
           <div class="contact-info h-100">
             
@@ -61,24 +63,27 @@
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, magnam!</p>
             <ul class="list-unstyled">
               <li class="d-flex">
-                <span class="wrap-icon icon-room mr-3"></span>
                 
-                <span class="text">9757 Aspen Lane South Richmond Hill, NY 11419</span>
+                <span class="wrap-icon icon-room mr-3 text-danger"></span>
+                
+                <span class="text"> <a href="#"><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a>9757 Aspen Lane South Richmond Hill, NY 11419</span>
               </li>
               <li class="d-flex">
                 <span class="wrap-icon icon-phone mr-3"></span>
 
-                <span  class="text"><i class="fa-solid fa-phone-missed"></i> +212 06 34 34 54 66</span>
+                <span  class="text"><a href="#"><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a> +212 06 34 34 54 66</span>
               </li>
               <li class="d-flex">
                 <span class="wrap-icon icon-envelope mr-3"></span>
-                <span class="text">info@mywebsite.com</span>
+                <span class="text"><a href=""><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a>
+                  info@mywebsite.com</span>
               </li>
           
             </ul>
           </div>
         </div>
       </div>
+      {{-- google map --}}
       <div class="goglemap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.311115706018!2d-8.020036685533041!3d31.652706981326006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67b72626e2242e2e!2sPharmacie%20Sup%20De%20Co!5e0!3m2!1sfr!2sma!4v1650718969071!5m2!1sfr!2sma" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
      </iframe>

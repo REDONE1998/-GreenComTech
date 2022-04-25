@@ -41,7 +41,7 @@ page blog
 .blogleft {
     position: absolute;
     z-index: 0;
-    top: 55px;
+    top: 70px;
     margin-left: 700px;
     background-color: #0a58ca;
     height: 64vh;
@@ -52,7 +52,7 @@ page blog
     z-index: 0;
     position: absolute;
     height: 40vh;
-    top: 55px;
+    top: 70px;
     left: 0;
     right: 0;
     width: 800px;
