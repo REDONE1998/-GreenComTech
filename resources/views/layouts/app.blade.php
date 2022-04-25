@@ -11,14 +11,19 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://kit.fontawesome.com/24c82798b6.js"crossorigin="anonymous" ></script> 
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
+    <link   href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    {{-- images --}}
+    {{-- <link href="{{ asset('img') }}" rel="stylesheet"> --}}
+ </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
