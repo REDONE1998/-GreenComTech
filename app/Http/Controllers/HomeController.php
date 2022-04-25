@@ -39,5 +39,9 @@ class HomeController extends Controller
         return view('blog');
     }
 
+    public function admin(){
+        return view('adminPage');
+    }
+
     
 }
