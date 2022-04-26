@@ -1,6 +1,6 @@
 
 @extends('layouts.header_footer')
-
+<body>
 @section('content')
 
 <div class="devis">
@@ -30,3 +30,4 @@
 </iframe>
 </div>
 @endsection
+</body>

@@ -1,6 +1,6 @@
 @extends('layouts.header_footer')
 
-
+<body>
 @section('content')
 <div class="body">
   {{-- formulaire --}}
@@ -66,16 +66,16 @@
                 
                 <span class="wrap-icon icon-room mr-3 text-danger"></span>
                 
-                <span class="text"> <a href="#"><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a>9757 Aspen Lane South Richmond Hill, NY 11419</span>
+                <span class="text"> <a href="#"> <i class="fa-solid fa-location-dot fa-2x mx-2"></i></a>9757 Aspen Lane South Richmond Hill, NY 11419</span>
               </li>
               <li class="d-flex">
                 <span class="wrap-icon icon-phone mr-3"></span>
-
-                <span  class="text"><a href="#"><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a> +212 06 34 34 54 66</span>
+               
+                <span  class="text"><a href="#"> <i class="fa fa-phone fa-2x mx-2 "></i></a> +212 06 34 34 54 66</span>
               </li>
               <li class="d-flex">
                 <span class="wrap-icon icon-envelope mr-3"></span>
-                <span class="text"><a href=""><i class="fa-solid fa-location-dot fa-2x mx-2"></i></a>
+                <span class="text"><a href=""> <i class="fa-solid fa-envelope fa-2x mx-2"></i></a>
                   info@mywebsite.com</span>
               </li>
           
@@ -96,3 +96,4 @@
     
       
 @endsection
+</body>
