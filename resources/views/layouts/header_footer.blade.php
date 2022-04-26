@@ -31,6 +31,8 @@
 
 }
 
+ 
+
 .menu-bar .navbar-toggler{
  padding-right:20px;
  outline:none!important;
@@ -55,33 +57,33 @@ border-bottom: 1px solid rgb(9, 168, 22)!important ;
       {{-- le debut de header --}}
       
         <header>   
-          <div class="header">
+          <div class="header" id='navigation'>
              <div class="menu-bar ">
                <nav class="navbar navbar-expand-lg navbar-light  ">
                  <div class="container-fluid ">
-                   <a class="navbar-brand " href="#"><img src="" >Green Com</a>
+                   <a class="navbar-brand " href="{{ asset('/') }}"><img src="" ><strong>Green Com Tech</strong></a>
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                    </button>
                    <div class="collapse navbar-collapse " id="navbarNav">
                      <ul class="navbar-nav ms-auto">
                        <li class="nav-item">
-                         <a class="nav-link" aria-current="page" href="#">Acceuil</a>
+                         <a class="nav-link" aria-current="page" href="{{ asset('/') }}">Acceuil</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link" href="#">A propos</a>
+                         <a class="nav-link" href="propos">A propos</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" href="#">Fonctionnalités</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link" href="#">Blog</a>
+                         <a class="nav-link" href="{{ asset('blog') }}">Blog</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" href="#" > <strong>Devis Gratuit</strong> </a>
                        </li>
                        <li class="nav-item">
-                         <a class=" btn btn-success mt-2" href="#">Contact</a>
+                         <a class=" btn btn-success mt-2" href="contact">Contact</a>
                        </li>
                      </ul>
                    </div>
@@ -100,7 +102,7 @@ border-bottom: 1px solid rgb(9, 168, 22)!important ;
 
       {{-- le debut de footer --}}
     
-        <footer  class="bg-dark text-white pt-5 pb-4">
+      <footer  class="bg-dark text-white pt-5 pb-4">
 
           <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">

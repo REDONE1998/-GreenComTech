@@ -39,6 +39,10 @@ class HomeController extends Controller
         return view('blog');
     }
 
+    public function propos(){
+        return view('propos');
+    }
+
     public function admin(){
         return view('adminPage');
     }

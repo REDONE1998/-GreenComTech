@@ -70,7 +70,7 @@
                        recusandae necessitatibus alias, sed consequatur. Eaque vero atque 
                        quo beatae eligendi, perspiciatis doloribus.
                       </p>          
-                      <a class="text-uppercase btn btn-outline-success p-2" href="#">demender un devis</a>
+                      <a class="text-uppercase btn btn-outline-success p-2" href="{{ asset('devis') }}">demender un devis</a>
                   </div>
                 </div> 
               </div>
@@ -93,7 +93,7 @@
                        recusandae necessitatibus alias, sed consequatur. Eaque vero atque 
                        quo beatae eligendi, perspiciatis doloribus.
                       </p>          
-                      <a class="text-uppercase btn btn-outline-warning p-2 text-center" href="#">contact</a>
+                      <a class="text-uppercase btn btn-outline-warning p-2 text-center" href="{{asset('contact')}}">contact</a>
                   </div>
                    <div class=" col-lg-6 col-md-12 col-xl-6">
                        <div class="logic-img">
