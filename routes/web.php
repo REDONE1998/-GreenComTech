@@ -27,6 +27,7 @@ Route::get('/blog',[App\Http\Controllers\HomeController::class ,'blog'])->name('
 Route::get('/devis',[App\Http\Controllers\HomeController::class ,'devis'])->name('devis');
 
 Route::get('/propos',[App\Http\Controllers\HomeController::class ,'propos'])->name('propos');
+Route::get('/fonctionnalite',[App\Http\Controllers\HomeController::class ,'fonctionnalite'])->name('fonctionnalite');
 
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

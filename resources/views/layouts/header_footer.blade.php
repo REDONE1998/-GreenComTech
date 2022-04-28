@@ -74,13 +74,13 @@ border-bottom: 1px solid rgb(9, 168, 22)!important ;
                          <a class="nav-link" href="propos">A propos</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link" href="#">Fonctionnalités</a>
+                         <a class="nav-link" href="{{ asset('fonctionnalite') }}">Fonctionnalités</a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" href="{{ asset('blog') }}">Blog</a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link" href="#" > <strong>Devis Gratuit</strong> </a>
+                         <a class="nav-link" href="{{ asset('devis') }}" > <strong>Devis Gratuit</strong> </a>
                        </li>
                        <li class="nav-item">
                          <a class=" btn btn-success mt-2" href="contact">Contact</a>

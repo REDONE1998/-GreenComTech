@@ -38,6 +38,9 @@ class HomeController extends Controller
     public function blog(){
         return view('blog');
     }
+    public function fonctionnalite(){
+        return view('fonctionnalite');
+    }
 
     public function propos(){
         return view('propos');
